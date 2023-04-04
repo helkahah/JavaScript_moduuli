@@ -10,11 +10,9 @@ else if (rand===2){
 else if (rand===3){
   house = "Ravenclaw"
 }
-else if (rand===4){
+else {
   house = "Slytherin"
 }
-else {
-  house = "error 404"
-}
+
 
 document.getElementById('hogwarts').innerHTML = name + " you are " + house;
