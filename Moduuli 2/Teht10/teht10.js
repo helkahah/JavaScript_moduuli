@@ -2,7 +2,7 @@
 
 const candidates = {};
 
-let numberOf = parseInt(prompt('How many participants?'));
+let numberOf = parseInt(prompt('How many candidates?'));
 
 for (let i = 0; i < numberOf; i++) {
   let name = prompt('What is the name of candidate no.' + (i + 1) + '?');
