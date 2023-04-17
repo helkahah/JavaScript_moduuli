@@ -1,6 +1,6 @@
 const button = document.querySelector('button');
 
-function popup(evt){
+function popup(){
   alert('Button Clicked');
 }
 
